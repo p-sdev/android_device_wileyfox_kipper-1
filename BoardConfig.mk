@@ -19,9 +19,5 @@ include device/wileyfox/kipper/board/*.mk
 
 TARGET_BOARD_INFO_FILE := device/wileyfox/kipper/board-info.txt
 
-# inherit from the proprietary version
--include vendor/wileyfox/kipper/BoardConfigVendor.mk
-
-TARGET_HW_DISK_ENCRYPTION := true
-BOARD_HAVE_QCOM_FM := true
-BOARD_CHARGER_ENABLE_SUSPEND := true
+# Inherit from proprietary files
+include vendor/wileyfox/kipper/BoardConfigVendor.mk
