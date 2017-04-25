@@ -22,5 +22,5 @@ TARGET_BOARD_INFO_FILE := device/wileyfox/kipper/board-info.txt
 # inherit from the proprietary version
 -include vendor/wileyfox/kipper/BoardConfigVendor.mk
 
-TARGET_HW_DISK_ENCRYPTION := false
+TARGET_HW_DISK_ENCRYPTION := true
 BOARD_HAVE_QCOM_FM := true
