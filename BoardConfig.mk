@@ -24,3 +24,4 @@ TARGET_BOARD_INFO_FILE := device/wileyfox/kipper/board-info.txt
 
 TARGET_HW_DISK_ENCRYPTION := true
 BOARD_HAVE_QCOM_FM := true
+BOARD_CHARGER_ENABLE_SUSPEND := true
